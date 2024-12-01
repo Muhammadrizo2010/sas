@@ -1,0 +1,68 @@
+.footer {
+    max-width: 1,199.15px;
+height: 800px;
+background-color: #010302;
+gap: 10px;
+opacity: 0px;
+padding-top: 200px;
+
+}
+
+.footer__box {
+    height: 473px;
+    gap: 0px;
+    opacity: 0px;
+    border: 1px solid #FFFFFF26;
+     backdrop-filter: blur(304px);
+     display: flex;
+     align-items: center;
+     padding: 200px;
+     gap: 30px;
+     margin-left: 30px;
+     background-image: url("/imgs/CTA\ Section.svg");
+}
+
+
+.background-img {
+    background-image: url("../../imgs/Avatar@3x\ 1.png");
+    background-size: cover;
+    width: 217px;
+height: 217px;
+gap: 0px;
+border-radius: 20px 0px 0px 0px;
+opacity: 0px;
+}
+
+.footer-text-box {
+    color: white;
+}
+
+
+@media only screen and (max-width:810px) {
+    .footer__box {
+        width: 748px;
+        height: 473px;
+        padding: 20px ;
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (max-width:390px) {
+    .footer__box {
+        width: 362px;
+height: 439px;
+top: 61px;
+left: 14px;
+gap: 0px;
+border-radius: 15px;
+opacity: 0px;
+margin-left: -8px;
+        flex-wrap: wrap;
+        display: block;
+        justify-content: center;
+    }
+
+    .footer-text-box {
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,115 @@
+
+.header {
+    background-color: #010302;
+    max-width: 1403px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.header__wrapper {
+    width: 760px;
+    padding: 10px;
+    gap: 30px;
+    border-radius: 14px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    border: 1px solid #FFFFFF26;
+    border-radius: 15px;
+    margin-left: 222px;
+    color: white;
+    align-items: center;
+    display: flex;
+}
+
+.text-box {
+    display: flex;
+    margin-left: 50px;
+    gap: 20px;
+}
+
+.text-box:hover {
+    font-size: 15px;
+    transition: 2s;
+}
+
+.btn {
+    margin-left: 1px;
+    width: 109px;
+    height: 30px;
+    padding: 2px 15px 2px 15px;
+    gap: 10px;
+    border-radius: 8px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    background: #8C45FF66;
+    box-shadow: 0px 0px 6px 3px #FFFFFF40 inset;
+    border: 1px solid #FFFFFF26;
+    backdrop-filter: blur(14px);
+    color: white;
+}
+
+.btn:hover {
+    background-color: greenyellow;
+}
+
+@media only screen and (max-width: 810px) {
+    .header {
+        max-width: 810px;
+        margin: 0 auto;
+        gap: 42px;
+        border: 0px 0px 1px 0px;
+        opacity: 0px;
+        margin-left: px;
+    }
+
+    .btn:hover {
+        background-color: red;
+    }
+
+    .header__wrapper {
+        width: 760px;
+        margin-left: 24px;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    .header {
+        max-width: 900px;
+        margin: 0 auto;
+        gap: 42px;
+        border: 0px 0px 1px 0px;
+        opacity: 0px;
+        margin-left: -400px;
+        background-color: #010302;
+    }
+
+    .btn:hover {
+        background-color: blue;
+    }
+
+    .img {
+        background-image: url("../../imgs/list\ 1.png");
+        width: 32px;
+        height: 32px;
+    }
+
+    .header__wrapper {
+        gap: 10px;
+        max-width: 350px;
+        margin: 0 auto;
+        border-radius: 0px;
+        margin-left: 400px;
+    }
+
+    .text-box {
+        display: none;
+    }
+
+    .btn {
+        margin-left: 120px;
+    }
+
+    .image {
+        margin-left: 40px;
+    }
+
+}
